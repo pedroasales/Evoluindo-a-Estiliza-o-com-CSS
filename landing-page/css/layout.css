@@ -1,0 +1,43 @@
+/* CABEÇALHO */
+#cabecalho {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#cabecalho h1 {
+    font-size: 32px; /* sobrescreve inline */
+}
+
+/* HERO */
+#hero {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#hero img {
+    max-width: 600px;
+    width: 100%;
+}
+
+/* CONTEÚDO */
+.conteudo {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* TÍTULOS */
+h2 {
+    color: #0077cc;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+/* PARÁGRAFOS */
+.conteudo p {
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+}

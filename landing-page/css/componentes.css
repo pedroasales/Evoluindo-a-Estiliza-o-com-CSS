@@ -1,0 +1,64 @@
+/* FIGURA */
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figure img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+figcaption {
+    font-size: 14px;
+    color: gray;
+}
+
+/* LISTA */
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li::before {
+    content: "✔ ";
+    color: green;
+}
+
+/* DESTAQUE */
+.destaque {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+/* BOTÃO */
+.botao {
+    display: inline-block;
+    background-color: #0077cc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* HOVER */
+.botao:hover {
+    background-color: #005fa3;
+}
+
+/* RODAPÉ */
+#rodape {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+#rodape a {
+    color: #00ccff;
+    text-decoration: none;
+}
